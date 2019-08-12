@@ -1,0 +1,763 @@
+/* FONTES DO SITE */
+@font-face {
+	font-family: 'Amatic';
+	src: url("../fonts/Amatic/AmaticSC-Regular.ttf");
+}
+
+@font-face {
+	font-family: 'AmaticBold';
+	src: url("../fonts/Amatic/Amatic-Bold.ttf");
+}
+
+@font-face {
+	font-family: 'Franklin';
+	src: url("../fonts/FranklinGothic/FranklinGothic.ttf");
+}
+
+@font-face {
+	font-family: 'Isocteur';
+	src: url("../fonts/Isocteur/ISOCTEUR.ttf");
+}
+
+@font-face {
+	font-family: 'MyriadPro';
+	src: url("../fonts/MyriadPro/MyriadPro-Cond.otf");
+}
+
+@font-face {
+	font-family: 'MyriadProBold';
+	src: url("../fonts/MyriadPro/MyriadPro-BoldCond.otf");
+}
+
+/* TOPO VERDE DA PÁGINA */
+.verde {
+    background-color: #a7d2cb;
+    width: 100%;
+    height: 30px;
+}
+
+.p-verde {
+    margin-left: 10px;
+    font-family: 'Isocteur';
+    font-size: 20px;
+    margin-top: 0;
+    line-height: 30px;
+}
+
+/* LOGO DA PÁGINA */
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+/* TEXTO DO MENU */
+a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Isocteur';
+}
+
+/* BORDA DO MENU */
+.border-right {
+    border-width: 3px;
+    border-style: solid;
+}
+
+/* BANNER DA HOME */
+.banner {
+    margin-top: 20px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+/* TEXTO DO BANNER */
+.p-banner {
+    position: absolute;
+    font-family: 'AmaticBold';
+    font-size: 30px;
+    bottom: 0px;
+    color: white;
+    left: 50px;
+}
+
+/* #borderimg1 { 
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(../img/direita.jpg) 30; 
+} */
+
+/* COLUNA FEMININO E MASCULINO */
+.justify-content-between {
+    margin-top: 50px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+/* IMAGEM FEMININO E MASCULINO */
+#img-gen {
+    width: 550px;
+}
+
+/* TEXTO DE BAIXO DA IMAGEM 'MASCULINO' E 'FEMININO' */
+.caption {
+    background-color: #a7d2cb;
+    text-align: center;
+    width: 550px;
+    height: 40px;
+    font-family: 'Isocteur';
+    font-size: 150% !important;
+}
+
+.col-gen {
+    margin-top: 20px;
+}
+
+/* TEXTO 'MAIS ACESSADOS' E 'NOVIDADES' */
+.mais {
+    text-align: center;
+    margin-bottom: 30px;
+    color: black;
+    font-family: 'AmaticBold';
+    font-size: 40px;
+}
+
+/* COLUNA 'MAIS ACESSADOS' */
+.acessados {
+    width: 100%;
+    position: relative;
+    margin-bottom: 30px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/* IMAGEM 'MAIS ACESSADOS' */
+.img-acessados {
+    height: 100px;
+}
+
+/* MARGEM INTERNA DA COLUNA 'MAIS ACESSADOS' */
+.col-acessados {
+    padding: 0 !important;
+    margin: 0 !important; 
+}
+
+/* TEXTO DA IMAGEM DA COLUNA 'MAIS ACESSADOS' */
+.p-acessados {
+    position: absolute;
+    left: 20px; 
+    right: 20px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    max-width: 400px;
+    top: 40%;
+    font-family: 'AmaticBold';
+    font-size: 30px;
+    background-color: #f2d388;
+    text-align: center;
+}
+
+/* LARGURA DA COLUNA 'NOVIDADES */
+.novidades {
+    width: 100%;
+}
+
+/* IMAGEM DA 'NOVIDADES' */
+.img-novidades {
+    height: 100px;
+}
+
+/* MARGEM INTERNA DA COLUNA 'NOVIDADES' */
+.col-novidades {
+    padding: 0 !important;
+    margin: 0 !important; 
+}
+
+/* RODAPÉ DO SITE */
+footer {
+    background-color: #f2d388;
+    width: 100%;
+    height: 80px; 
+    margin-top: 40px;
+    margin-left: auto; 
+    margin-right: auto;
+    float: left;
+}
+
+.logo-parceiros {
+    width: 70px;
+}
+
+/* TEXTO DO RODAPÉ */
+.p-footer {
+    font-family: 'Isocteur';
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
+
+/* IMAGEM DO BRASIL DO RODAPÉ */
+.img-brasil {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 120px;
+/*    margin-top: -10px;*/
+}
+
+/* MARGENS ENTRE POSTAGENS DO BLOG */
+.blog {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+/* TEXTO 'POR' DO BLOG */
+.por {
+    font-family: 'MyriadPro';
+    margin-top: 5px;
+    margin-bottom: 0;
+    font-size: 20px;
+}
+
+/* TITULO DA POSTAGEM DO BLOG */
+.titulo {
+    font-family: 'MyriadProBold';
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.sub-titulo {
+    font-family: 'MyriadProBold';
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/* TEXTO ABAIXO DO TITULO */
+.texto {
+    font-family: 'MyriadPro';
+    font-size: 30px;
+    margin-top: 0;
+}
+
+/* BOTÃO 'CONTINUE LENDO' */
+.btn-lg {
+    background-color: #c98474 !important;
+    font-family: 'MyriadProBold';
+    font-size: 30px !important;
+    color: black !important;
+    border-color: black !important;
+}
+
+/* COR DO TEXTO DO BOTÃO 'CONTINUE LENDO' */
+.postagem {
+    font-size: 30px;
+    color: black;
+    font-family: 'MyriadProBold';
+}
+
+.postagem:hover {
+    color: black;
+    text-decoration: none;
+}
+
+#titulo-post {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 45px;
+}
+/* IMAGEM DA POSTAGEM DO BLOG */
+.img-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* IMAGEM DA POSTAGEM 3 */
+.img-jeans {
+    left: 20px; 
+    right: 20px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    max-width: 400px;
+    max-height: 400px;
+}
+
+/* TEXTO PRINCIPAL DA PÁGINA COSTUREIRAS */
+.indicacoes {
+    font-family: 'AmaticBold';
+    font-size: 40px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+/* BORDA DO CAMPO DE 'PESQUISA' DA PÁGINA COSTUREIRAS */
+.form-control {
+    border-right: 0px !important;
+    margin-top: 30px;
+}
+
+.input-group {
+    width: 60% !important;
+}
+
+/* BORDA DA LUPA DO CAMPO DE 'PESQUISA' */
+.input-group-text {
+    background-color: transparent !important; 
+    border-left: 0px !important;
+    margin-top: 30px;
+}
+
+/* LISTA DE COSTUREIRAS */
+.list-group-item {
+    font-family: 'Isocteur';
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/* NUMERO DE PÁGINAS DO SITE */
+.page-link {
+   color: black !important;
+}
+
+/* COR DE FUNDO DO NUMERO DA PÁGINA SELECIONADA */
+.page-item.active .page-link {
+    background-color: #f2d388 !important;
+    border-color: #f2d388 !important;
+}
+
+/* MARGEM PARA O BOTÃO DE NUMEROS DE PÁGINAS */
+.pagination {
+    margin-top: 20px;
+}
+
+/* BOTÃO 'ORDENAR POR' DA PÁGINA ROUPAS */
+.drop-ordenar {
+    margin-top: 30px;
+    float: right;
+    margin-bottom: 20px;
+}
+
+#dropdownMenu1 {
+    color: black;
+    background-color: transparent;
+    border-color: black;
+    border-radius: 1px;
+    margin-top: 0px;
+}
+
+/* BOTÕES DE CATEGORIAS DA PÁGINA ROUPAS  */
+#dropdownMenu2 {
+    color: black;
+    background-color: transparent;
+    border-color: black;
+    border-radius: 1px;
+    margin-top: 0px;
+    width: 80%;
+}
+
+/* DIV PRINCIPAL DA PÁGINA ROUPAS, SAPATOS E ACESSÓRIOS */
+.principal {
+    margin: 0 auto;
+    width: 95%;
+    margin-top: 20px;
+}
+
+.clear-fix {
+    clear: both;
+}
+
+/* PARTE DA ESQUERDA DA PÁGINA ROUPAS */
+.aside {
+    width: 20%;
+    float: left;
+}
+
+/* PARTE DA DIREITA DA PÁGINA ROUPAS */
+.section {
+    width: 80%;
+    float: left;
+}
+
+.categorias {
+    margin-top: 60px;
+}
+
+/* TEXTO DAS CATEGORIAS DA ESQUERDA */
+.cat-p {
+    font-family: 'Isocteur';
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+    color: black;
+}
+
+/* TEXTO DOS MENUS DA PARTE DA ESQUERDA*/
+.cat-itens {
+    font-family: 'Isocteur';
+    font-size: 15px;
+}
+
+/* IMAGENS DA PARTE DA DIREITA */
+#img-roupas {
+    height: 350px;
+    width: 300px;
+}
+
+#ex1Slider .slider-selection {
+	background: #BABABA;
+}
+
+#ex1Slider .slider-selection {
+	background: #BABABA;
+}
+
+/* BORDA [ ] NO TEXTO PRINCIPAL DA PÁGINA COSTUREIRAS */
+/* .costureiras {
+    padding: 1rem;
+    width: 50%;
+    margin: 1rem auto;
+    position: relative;
+}
+
+.costureiras::after,
+.costureiras::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 3em;
+    height: 100%;
+    border: .5em solid currentColor;
+    border-radius: .5em;
+}
+
+.costureiras::after {
+    left: 0;
+    border-right: 0;
+}
+
+.costureiras::before {
+    right: 0;
+    border-left: 0;
+} */
+
+.box {
+    width: 450px;
+    height: 297px;
+    margin: 0 auto;
+    border: 25px solid transparent;
+    margin-top: none;
+    border-image: url("../img/border.png") 30 round;   
+}
+
+/* MENU SLIDER DO PREÇO DAS PÁGINAS ROUPAS, ACESSÓRIOS E SAPATOS  */
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 5px;
+    border-radius: 5px;   
+    background: #f2d388;
+    outline: none;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider-m {
+    background: #000;
+}
+
+.slider-m::-webkit-slider-thumb {
+    background: #000;
+}
+
+.slider-m::-moz-range-thumb {
+    background: #000;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%; 
+    background: #f2d388;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #f2d388;
+    cursor: pointer;
+}
+
+/* TEXTO DO MENU SLIDER */
+.cat-pp {
+    font-family: 'Isocteur';
+    font-weight: bold;
+    font-size: 13px;
+    margin-top: 10px;
+    color: black;
+}
+
+/* EFEITO HOVER NAS IMAGENS DAS PÁGINAS ROUPAS, ACESSÓRIOS E SAPATOS */
+h1,
+h1+p {
+	margin: 30px 15px 0;
+	font-weight: 300;
+}
+
+h1+p a {
+	color: #333;
+}
+
+h1+p a:hover {
+	text-decoration: none;
+}
+
+h2 {
+	margin: 60px 15px 0;
+	padding: 0;
+	font-weight: 300;
+}
+
+h2 span {
+	margin-left: 1em;
+	color: #aaa;
+	font-size: 85%;
+}
+
+.column {
+	margin: 0 15px;
+}
+
+/* .column:last-child {
+	padding-bottom: 60px;
+} */
+
+.column::after {
+	content: '';
+	clear: both;
+	display: block;
+}
+
+.column div {
+	position: relative;
+	float: left;
+	width: 300px;
+	height: 350px;
+	margin: 0 0 0 25px;
+	padding: 0;
+}
+
+.column div:first-child {
+	margin-left: 0;
+}
+
+.column div span {
+	position: absolute;
+	bottom: -20px;
+	left: 0;
+	z-index: -1;
+	display: block;
+	width: 300px;
+	margin: 0;
+	padding: 0;
+	color: #444;
+	font-size: 18px;
+	text-decoration: none;
+	text-align: center;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+	opacity: 0;
+}
+
+figure {
+	width: 300px;
+	height: 350px;
+	margin: 0;
+	padding: 0;
+	background: #fff;
+	overflow: hidden;
+}
+
+figure:hover+span {
+	bottom: -50px;
+	opacity: 1;
+    font-family: 'Isocteur';
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.hover01 {
+    margin-bottom: 50px;
+}
+
+.hover01 figure img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.hover01 figure:hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+/* TEXTO DO FORMULÁRIO DA PÁGINA DE CONTATO */
+.form-group {
+    font-family: 'Isocteur';
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* TEXTO DA PÁGINA SOBRE NÓS */
+.sobre {
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Isocteur';
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+    width: 70%;
+}
+
+/* TEXTO RECICLE, REPINDA DA PÁGINA SOBRE NÓS */
+.recicle {
+    font-size: 25px;
+}
+
+/* VISUAL DO LINK DO TEXTO 'CONTATO' */
+.a-contato {
+    color: black;
+    text-decoration: underline;
+    outline: 0;
+}
+
+/* VISUAL DO LINK DO TEXTO 'CONTATO' QUANDO MOUSE EM CIMA DO TEXTO */
+.a-contato:hover {
+    color: black;
+}
+
+/* ICONES E TEXTO DE REDES SOCIAIS */
+.redes-sociais {
+    text-align: center;
+    margin-top: 60px;
+    font-family: 'AmaticBold';
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.parceiros {
+    text-align: center;
+    margin-top: 60px;
+    font-family: 'AmaticBold';
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.img-parceiros {
+    width: 300px;
+}
+
+/* MARGEM DO ICONE DO INSTAGRAM */
+.fa-instagram {
+    margin-right: 30px;
+}
+
+/* MARGEM DO ICONE DO PINTEREST */
+.fa-pinterest {
+    margin-left: 30px;
+}
+
+footer p{
+    margin: 0;
+    padding: 0;
+}
+
+.parceiros-img {
+    width: 295px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 992px) { 
+
+    .sidebar-static {
+        display: block !important;
+    }
+    
+    #sidebarCollapse {
+        display: none;
+    }
+
+}
+
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+
+    .titulo-principal h1 {
+        font-size: 13px;
+    }
+
+    .p-footer {
+        font-size: 10px;
+    }
+
+    .img-brasil {
+        width: 100px;
+    }
+
+    .parceiros-img {
+        display: none;
+    }
+
+    figure:hover+span {
+        bottom: -70px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
